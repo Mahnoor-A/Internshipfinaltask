@@ -1,0 +1,307 @@
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("evan.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.levimg{
+    width: 100%;
+    height: 800px;
+}
+.welcome{
+    background-origin: padding-box;
+    position: relative;
+    padding: 300%;
+
+
+}
+.sign-upform{
+    width: 300px;
+    box-shadow: 0 0 3px 0 66101F;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+.sign-upform h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px 0;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+
+}
+.twitter-btn{
+    background-color: #21afde;
+}
+.signup-btn{
+    background-color: #1c8adb;
+
+}
+.google-btn{
+    background-color: rgb(122, 5, 5);
+}
+.facebook-btn{
+    background-color: blue;
+
+}
+.navbar{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    background-color: 011638;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+  
+}
+.navbar ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: 66101F;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: EDAE49;
+    padding: 8px 25px;
+    transition: all .5s ease-out;
+}
+.navbar ul li a:hover{
+
+    background-color:EDAE49;
+    color: black;
+    box-shadow: 0 0 10px 66101F;
+
+}
+/*shop*/
+
+/* ---------- BODY ---------- */
+
+.row1
+{
+    margin-top: 7em;
+    
+
+}
+
+img
+{
+    height: 30em;
+}
+
+.row1 p
+{
+    color: rgb(44, 44, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button
+{
+    background-color: rgb(255, 132, 16);
+    color: rgb(255, 255, 255) !important;
+    margin-left: 5em;
+}
+
+.col0
+{
+    display: flex;
+    justify-content: right;
+    margin-top: 6em;
+}
+
+/* footer*/
+.site-footer
+{
+  background-color: 011638;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: EDAE49;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
